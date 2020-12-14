@@ -1,12 +1,12 @@
 
-public class Node<T> {
-	T data;
+public class Node {
+	int data;
 	Node left, right;
 	
-	Node(T data){
+	Node(int data){
 		this.data = data;
 		left = null;
 		right = null;
 	}
-
+	
 }
