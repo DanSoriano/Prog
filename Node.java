@@ -1,12 +1,9 @@
-
 public class Node {
-	int data;
+	int data, height;
 	Node left, right;
 	
 	Node(int data){
 		this.data = data;
-		left = null;
-		right = null;
+		height = 1;
 	}
-	
 }
